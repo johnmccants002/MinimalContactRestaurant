@@ -11,6 +11,8 @@
 		3151938628B1C9E1008408D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151938528B1C9E1008408D2 /* ContentView.swift */; };
 		3151938828B1C9E2008408D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3151938728B1C9E2008408D2 /* Assets.xcassets */; };
 		3151938B28B1C9E2008408D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3151938A28B1C9E2008408D2 /* Preview Assets.xcassets */; };
+		3151939228B1CA62008408D2 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151939128B1CA62008408D2 /* MainPage.swift */; };
+		3151939428B1CB05008408D2 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151939328B1CB05008408D2 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3151938528B1C9E1008408D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3151938728B1C9E2008408D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3151938A28B1C9E2008408D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3151939128B1CA62008408D2 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		3151939328B1CB05008408D2 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3151938328B1C9E1008408D2 /* MinimalContactRestaurantApp.swift */,
 				3151938528B1C9E1008408D2 /* ContentView.swift */,
+				3151939128B1CA62008408D2 /* MainPage.swift */,
+				3151939328B1CB05008408D2 /* Onboarding.swift */,
 				3151938728B1C9E2008408D2 /* Assets.xcassets */,
 				3151938928B1C9E2008408D2 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				3151938628B1C9E1008408D2 /* ContentView.swift in Sources */,
 				3151938428B1C9E1008408D2 /* MinimalContactRestaurantApp.swift in Sources */,
+				3151939428B1CB05008408D2 /* Onboarding.swift in Sources */,
+				3151939228B1CA62008408D2 /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MinimalContactRestaurant/Preview Content\"";
@@ -293,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MinimalContactRestaurant/Preview Content\"";
