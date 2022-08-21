@@ -15,7 +15,7 @@ struct Onboarding: View {
                 .font(.system(size: 24, weight: .medium))
                 .padding(.top, 40)
                 .frame(width: 400, height: 100)
-            Image("restaurant")
+            Image(restaurantImage)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200)
@@ -25,12 +25,13 @@ struct Onboarding: View {
             HStack {
                 Button(action: {
                     dismiss()
+              
                 }) {
                     
                     HStack {
                         Text("Lets Go!")
                             .font(.system(.title3, weight: .semibold))
-                        Image(systemName: "menucard")
+                        Image(systemName: menuImage)
                     }
                     .padding(.top, 15)
                     

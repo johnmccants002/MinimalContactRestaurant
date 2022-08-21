@@ -10,7 +10,10 @@ import SwiftUI
 struct MainPage: View {
  
     @State private var showingSheet = false
+    @ObservedObject private var RestaurantObject = RestaurantAPI()
+    
     var body: some View {
+        
         VStack {
             HStack {
                 Text("Welcome, John!")
@@ -22,7 +25,7 @@ struct MainPage: View {
                     showingSheet.toggle()
                 })
                 {
-                    Label("", systemImage: "person.fill")
+                    Label("", systemImage: gridImage)
                         .font(.system(size: 36))
                 }
                 .sheet(isPresented: $showingSheet) {
@@ -31,7 +34,12 @@ struct MainPage: View {
                 
                 
             }
-            Spacer()
+            ScrollView {
+                ForEach(RestaurantObject.restaurants) { restaurant in
+                    RestaurantView(restaurant: restaurant)
+                }
+            }
+          
         }
         
     }

@@ -1,6 +1,6 @@
 ## Minimal Contact Restaurant
 
-![Screenshot](https://i.imgur.com/jL5lL1i.png)
+![Screenshot](https://i.imgur.com/j6BDvthl.png)
 
 ## Language
 
@@ -10,3 +10,5 @@
 
 - Onboarding Screen
 - Main Screen
+- @Publisher / @ObservableObject
+- Fetching data from Restaurant API
